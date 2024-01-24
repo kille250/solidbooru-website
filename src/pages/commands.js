@@ -70,6 +70,50 @@ export default function Commands() {
             </div>
           </section>
 
+          <input type="radio" name="accordion" id="cb3" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb4">
+              Template ⚙
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>/template edit name: model: lora: style: resolution: steps: clip_skip:</kbd> -{" "}
+                  <span className="p-color">Edit a specific template</span>
+                </li>
+                <li>
+                  <kbd>/template set name:</kbd> -{" "}
+                  <span className="p-color">Set a template as default</span>
+                </li>
+                <li>
+                  <kbd>/template unset</kbd> -{" "}
+                  <span className="p-color">Unset a template as default</span>
+                </li>
+                <li>
+                  <kbd>/template show name:</kbd> -{" "}
+                  <span className="p-color">Show a specific template from a user</span>
+                </li>
+                <li>
+                  <kbd>/template show name:</kbd> -{" "}
+                  <span className="p-color">Show a specific template from a user</span>
+                </li>
+                <li>
+                  <kbd>/template add name: model: resolution: steps: clip_skip: lora: style:</kbd> -{" "}
+                  <span className="p-color">Add a new template</span>
+                </li>
+                <li>
+                  <kbd>/template list</kbd> -{" "}
+                  <span className="p-color">List all templates of the user</span>
+                </li>
+                <li>
+                  <kbd>/template remove name:</kbd> -{" "}
+                  <span className="p-color">Remove a template</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
