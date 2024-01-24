@@ -30,7 +30,7 @@ export default function Commands() {
               ⚡ Commands
             </label>
           </header>
-          <input type="radio" name="accordion" id="cb5" />
+          <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb5">
               Image 🖼️
@@ -46,7 +46,7 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb4" />
+          <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb4">
               Search 🔎
