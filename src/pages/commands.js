@@ -32,7 +32,7 @@ export default function Commands() {
           </header>
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb5">
+            <label className="box-title p-color" htmlFor="cb1">
               Image 🖼️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -48,7 +48,7 @@ export default function Commands() {
 
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb4">
+            <label className="box-title p-color" htmlFor="cb2">
               Search 🔎
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -72,7 +72,7 @@ export default function Commands() {
 
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb4">
+            <label className="box-title p-color" htmlFor="cb3">
               Template ⚙
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
