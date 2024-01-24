@@ -14,7 +14,7 @@ export default function Commands() {
       animate={{ opacity: 1 }}
     >
       <Head>
-        <title>Commands | BOT</title>
+        <title>Commands | Solidbooru-AI</title>
         <meta
           name="description"
           content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
@@ -30,100 +30,6 @@ export default function Commands() {
               ⚡ Commands
             </label>
           </header>
-          <input type="radio" name="accordion" id="cb1" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <input type="radio" name="accordion" id="cb2" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <input type="radio" name="accordion" id="cb3" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
-              Customization 👀
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <input type="radio" name="accordion" id="cb4" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb4">
-              Gameplay 🎲
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
           <input type="radio" name="accordion" id="cb5" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb5">
@@ -133,16 +39,32 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/imagine prompt: model: lora: style: resolution: clip_skip: steps: amount: image:</kbd> -{" "}
+                  <span className="p-color">Generate Images</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <input type="radio" name="accordion" id="cb4" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb4">
+              Search 🔎
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>/search images search: position:</kbd> -{" "}
+                  <span className="p-color">Search for approved images</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/search likes search: position:</kbd> -{" "}
+                  <span className="p-color">Search for liked images</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/search all search: position:</kbd> -{" "}
+                  <span className="p-color">Search for created images</span>
                 </li>
               </ul>
             </div>
