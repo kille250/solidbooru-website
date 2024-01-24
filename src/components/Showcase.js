@@ -10,19 +10,18 @@ const Showcase = () => {
       animate={{ opacity: 1 }}
     >
       <main className="showcase">
-        <h1 className="showcase-header h-color">BOT</h1>
+        <h1 className="showcase-header h-color">Solidbooru-AI</h1>
         <h2 className="showcase-header-text h-color">
-          The only discord bot you need!
+          Generate awesome images or chat via AI for free!
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your needs in your discord server.
+          Feel free to browse, like and share thousands of created images.
         </p>
 
         <span className="p-color">Bot is online!</span>
         <div className="showcase-btn">
           <button className="btn">
-            <Link className="h-color no-decoration" href="#">
+            <Link className="h-color no-decoration" href="https://discord.com/oauth2/authorize?client_id=1186728006891343913&scope=bot">
               Invite now!
             </Link>
           </button>
