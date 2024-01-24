@@ -8,7 +8,7 @@ const Navbar = () => {
           <ul>
             <li>
               <Link className="h-color" href="/">
-                BOT
+                Solidbooru-AI
               </Link>
             </li>
           </ul>
