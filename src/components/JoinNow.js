@@ -12,7 +12,7 @@ const JoinNow = () => {
         </div>
         <button className="btn">
           <Link className="h-color no-decoration" href="https://discord.com/invite/aFsdveRv2R">
-            Invite now!
+            Join server!
           </Link>
         </button>
       </section>
